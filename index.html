@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Bushy</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Bushy</h1>
+            <p>Bushcraft app v 0.0.1</p>
+            <hr>
+            <button>Force Refresh</button>
+        </div>
+        <h3>Current Localization:</h3><span id="geolocation"></span>
+        <!--The div element for the map -->
+        <div class="compass">
+            <div class="arrow"></div>
+            <div class="compass-circle"></div>
+            <div class="my-point"></div>
+          </div>
+          <button class="start-btn">Start compass</button>
+
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
